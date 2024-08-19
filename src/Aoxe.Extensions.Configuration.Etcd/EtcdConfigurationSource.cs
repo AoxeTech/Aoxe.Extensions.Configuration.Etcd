@@ -1,9 +1,14 @@
 namespace Aoxe.Extensions.Configuration.Etcd;
 
-public class EtcdConfigurationSource(EtcdClient etcdClient, string key) : IConfigurationSource
+public class EtcdConfigurationSource(
+    EtcdClientOptions etcdClientOptions,
+    string key,
+    IFlattener? flattener = null
+) : IConfigurationSource
 {
-    public IConfigurationProvider Build(IConfigurationBuilder builder)
-    {
-        return new EtcdConfigurationProvider(etcdClient, key);
-    }
+    public EtcdClientOptions EtcdClientOptions { get; } = etcdClientOptions;
+    public string Key { get; } = key;
+
+    public IConfigurationProvider Build(IConfigurationBuilder builder) =>
+        new EtcdConfigurationProvider(this, flattener);
 }

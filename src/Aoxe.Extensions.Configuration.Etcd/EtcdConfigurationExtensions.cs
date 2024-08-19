@@ -4,10 +4,8 @@ public static class EtcdConfigurationExtensions
 {
     public static IConfigurationBuilder AddEtcd(
         this IConfigurationBuilder builder,
-        EtcdClient etcdClient,
-        string key
-    )
-    {
-        return builder.Add(new EtcdConfigurationSource(etcdClient, key));
-    }
+        EtcdClientOptions etcdClientOptions,
+        string key,
+        IFlattener? flattener = null
+    ) => builder.Add(new EtcdConfigurationSource(etcdClientOptions, key, flattener));
 }

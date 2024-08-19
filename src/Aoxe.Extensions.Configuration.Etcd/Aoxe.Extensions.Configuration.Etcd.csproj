@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	
 	<PropertyGroup>
-		<TargetFrameworks>netstandard2.0;net6.0;net8.0;net9.0</TargetFrameworks>
+		<TargetFrameworks>net6.0;net8.0;net9.0</TargetFrameworks>
 		<PackageVersion>2024.1.0</PackageVersion>
 		<Version>2024.1.0</Version>
 		<Description>Let the etcd as a configuration source.</Description>
-		<PackageTags>Aoxe;Configuration;etct</PackageTags>
+		<PackageTags>Aoxe;Configuration;etcd</PackageTags>
 		<PackageProjectUrl>https://github.com/AoxeTech</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/AoxeTech/Aoxe.Extensions.Configuration.Etcd</RepositoryUrl>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
