@@ -1,8 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AFC0A0BC-2322-437C-852B-E9455EFF5B6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{401FCAB0-2803-457C-B5DB-498FFF1F2FA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aoxe.Extensions.Configuration.Etcd", "src\Aoxe.Extensions.Configuration.Etcd\Aoxe.Extensions.Configuration.Etcd.csproj", "{6B008E32-B665-4B04-A737-23E39C01270E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B008E32-B665-4B04-A737-23E39C01270E} = {AFC0A0BC-2322-437C-852B-E9455EFF5B6D}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B008E32-B665-4B04-A737-23E39C01270E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B008E32-B665-4B04-A737-23E39C01270E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B008E32-B665-4B04-A737-23E39C01270E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B008E32-B665-4B04-A737-23E39C01270E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
