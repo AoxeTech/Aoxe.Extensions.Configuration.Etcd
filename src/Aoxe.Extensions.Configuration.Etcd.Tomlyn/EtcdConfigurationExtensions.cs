@@ -2,7 +2,7 @@
 
 public static class EtcdConfigurationExtensions
 {
-    public static IConfigurationBuilder AddEtcdYaml(
+    public static IConfigurationBuilder AddEtcdToml(
         this IConfigurationBuilder builder,
         EtcdClientOptions etcdClientOptions,
         string key
