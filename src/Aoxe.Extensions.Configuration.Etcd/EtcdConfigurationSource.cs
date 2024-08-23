@@ -10,5 +10,5 @@ public class EtcdConfigurationSource(
     public string Key { get; } = key;
 
     public IConfigurationProvider Build(IConfigurationBuilder builder) =>
-        new EtcdConfigurationProvider(this, flattener);
+        new EtcdConfigurationProvider(this, new EtcdClientFactory(this), flattener);
 }
