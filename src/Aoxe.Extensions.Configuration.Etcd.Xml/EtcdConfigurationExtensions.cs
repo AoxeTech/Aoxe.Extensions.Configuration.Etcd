@@ -4,7 +4,13 @@ public static class EtcdConfigurationExtensions
 {
     public static IConfigurationBuilder AddEtcdXml(
         this IConfigurationBuilder builder,
-        EtcdClientOptions etcdClientOptions,
+        Func<EtcdClientOptions> optionsFactory,
         string key
-    ) => builder.Add(new EtcdConfigurationSource(etcdClientOptions, key, new XmlFlattener()));
+    ) => builder.Add(new EtcdConfigurationSource(optionsFactory, key, new XmlFlattener()));
+
+    public static IConfigurationBuilder AddEtcdXml(
+        this IConfigurationBuilder builder,
+        EtcdClientOptions options,
+        string key
+    ) => builder.Add(new EtcdConfigurationSource(options, key, new XmlFlattener()));
 }
