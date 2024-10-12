@@ -1,0 +1,26 @@
+﻿<Solution>
+  <Folder Name="/src/">
+    <Project Path="src\Aoxe.Extensions.Configuration.Etcd.IniParser\Aoxe.Extensions.Configuration.Etcd.IniParser.csproj" Type="Classic C#" />
+    <Project Path="src\Aoxe.Extensions.Configuration.Etcd.Ini\Aoxe.Extensions.Configuration.Etcd.Ini.csproj" Type="Classic C#" />
+    <Project Path="src\Aoxe.Extensions.Configuration.Etcd.Json\Aoxe.Extensions.Configuration.Etcd.Json.csproj" Type="Classic C#" />
+    <Project Path="src\Aoxe.Extensions.Configuration.Etcd.NewtonsoftJson\Aoxe.Extensions.Configuration.Etcd.NewtonsoftJson.csproj" Type="Classic C#" />
+    <Project Path="src\Aoxe.Extensions.Configuration.Etcd.SharpYaml\Aoxe.Extensions.Configuration.Etcd.SharpYaml.csproj" Type="Classic C#" />
+    <Project Path="src\Aoxe.Extensions.Configuration.Etcd.Tomlet\Aoxe.Extensions.Configuration.Etcd.Tomlet.csproj" Type="Classic C#" />
+    <Project Path="src\Aoxe.Extensions.Configuration.Etcd.Tomlyn\Aoxe.Extensions.Configuration.Etcd.Tomlyn.csproj" Type="Classic C#" />
+    <Project Path="src\Aoxe.Extensions.Configuration.Etcd.Xml\Aoxe.Extensions.Configuration.Etcd.Xml.csproj" Type="Classic C#" />
+    <Project Path="src\Aoxe.Extensions.Configuration.Etcd.YamlDotNet\Aoxe.Extensions.Configuration.Etcd.YamlDotNet.csproj" Type="Classic C#" />
+    <Project Path="src\Aoxe.Extensions.Configuration.Etcd\Aoxe.Extensions.Configuration.Etcd.csproj" Type="Classic C#" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests\Aoxe.Extensions.Configuration.Etcd.Ini.Test\Aoxe.Extensions.Configuration.Etcd.Ini.Test.csproj" Type="Classic C#" />
+    <Project Path="tests\Aoxe.Extensions.Configuration.Etcd.IniParser.Test\Aoxe.Extensions.Configuration.Etcd.IniParser.Test.csproj" Type="Classic C#" />
+    <Project Path="tests\Aoxe.Extensions.Configuration.Etcd.Json.Test\Aoxe.Extensions.Configuration.Etcd.Json.Test.csproj" Type="Classic C#" />
+    <Project Path="tests\Aoxe.Extensions.Configuration.Etcd.NewtonsoftJson.Test\Aoxe.Extensions.Configuration.Etcd.NewtonsoftJson.Test.csproj" Type="Classic C#" />
+    <Project Path="tests\Aoxe.Extensions.Configuration.Etcd.SharpYaml.Test\Aoxe.Extensions.Configuration.Etcd.SharpYaml.Test.csproj" Type="Classic C#" />
+    <Project Path="tests\Aoxe.Extensions.Configuration.Etcd.Test\Aoxe.Extensions.Configuration.Etcd.Test.csproj" Type="Classic C#" />
+    <Project Path="tests\Aoxe.Extensions.Configuration.Etcd.Tomlet.Test\Aoxe.Extensions.Configuration.Etcd.Tomlet.Test.csproj" Type="Classic C#" />
+    <Project Path="tests\Aoxe.Extensions.Configuration.Etcd.Tomlyn.Test\Aoxe.Extensions.Configuration.Etcd.Tomlyn.Test.csproj" Type="Classic C#" />
+    <Project Path="tests\Aoxe.Extensions.Configuration.Etcd.Xml.Test\Aoxe.Extensions.Configuration.Etcd.Xml.Test.csproj" Type="Classic C#" />
+    <Project Path="tests\Aoxe.Extensions.Configuration.Etcd.YamlDotNet.Test\Aoxe.Extensions.Configuration.Etcd.YamlDotNet.Test.csproj" Type="Classic C#" />
+  </Folder>
+</Solution>
